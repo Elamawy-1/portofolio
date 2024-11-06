@@ -676,13 +676,16 @@ textarea:focus{
     line-height: 1.7;
 
 }
+.contact .intouch .info{
+    display: flex;
+    flex-direction: column;
+}
 .contact .intouch .info .row{
     display: flex;
     align-items: center;
     max-width: 100%;
-    flex-wrap: wrap;
 }
-.contact .intouch .info .row p{
+.contact .intouch .info .row span{
     margin: 10px 0;
 }
 .contact .intouch .info .row i{
@@ -734,8 +737,8 @@ textarea:focus{
 }
 @media (max-width: 767px) {
     .contact .intouch .social a {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         font-size: 16px;
     }
 }
