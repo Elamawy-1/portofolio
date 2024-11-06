@@ -141,6 +141,9 @@ ul{
     .header{
         padding: 15px 10px;
     }
+    .header .links li a::before{
+        left: 0;
+    }
 }
 
 /* end header */
