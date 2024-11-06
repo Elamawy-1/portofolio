@@ -676,13 +676,10 @@ textarea:focus{
     line-height: 1.7;
 
 }
-.contact .intouch .info{
-    display: flex;
-    flex-direction: column;
-}
 .contact .intouch .info .row{
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
     max-width: 100%;
 }
 .contact .intouch .info .row span{
@@ -740,6 +737,9 @@ textarea:focus{
         width: 40px;
         height: 40px;
         font-size: 16px;
+    }
+    .contact .box{
+        padding: 48px 20px;
     }
 }
 
