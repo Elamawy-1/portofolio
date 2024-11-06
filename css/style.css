@@ -679,12 +679,14 @@ textarea:focus{
 .contact .intouch .info .row{
     display: flex;
     align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
 }
 .contact .intouch .info .row p{
     margin: 10px 0;
 }
 .contact .intouch .info .row i{
-    margin-right: 10px;
+    margin-right: 5px;
     position: relative;
     z-index: 10;
 
