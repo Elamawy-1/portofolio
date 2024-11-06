@@ -731,8 +731,8 @@ textarea:focus{
 }
 @media (max-width: 767px) {
     .contact .intouch .social a {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         font-size: 16px;
     }
 }
